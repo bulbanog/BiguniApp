@@ -13,7 +13,7 @@
         android:layout_height="49dp"
         android:text="Go!"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="299dp"
+        tools:layout_editor_absoluteY="277dp"
         android:textColor="@color/colorPrimary"
         android:background="@color/colorPrimaryDark"/>
 

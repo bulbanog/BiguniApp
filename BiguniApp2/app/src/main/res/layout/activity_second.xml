@@ -30,12 +30,12 @@
         android:id="@+id/senhaText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="26dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Senha" />
+        android:text="Senha"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
 
     <TextView
         android:id="@+id/textView2"
