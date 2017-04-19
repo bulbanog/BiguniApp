@@ -48,12 +48,12 @@
         android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/criarConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Criar conta"
-        android:layout_marginTop="25dp"
-        android:textColor="@color/colorAccent"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Criar conta"
+        android:textColor="@color/colorAccent" />
 </RelativeLayout>
