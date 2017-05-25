@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListaCaronaActivity"></activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".NewAccountActivity"></activity>
+        <activity android:name=".NewAccountActivity2"></activity>
+        <activity android:name=".NewAccountActivity3"></activity>
     </application>
 
 </manifest>
