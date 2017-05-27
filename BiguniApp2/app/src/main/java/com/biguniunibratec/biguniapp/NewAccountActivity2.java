@@ -38,6 +38,7 @@ public class NewAccountActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(c,NewAccountActivity3.class);
+                startActivity(intent);
             }
         });
 
