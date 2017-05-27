@@ -21,14 +21,18 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-
+        TextView txtmatriculaacesso = (TextView) findViewById(R.id.txtmatriculaacesso);
+        TextView txtsenhaacesso = (TextView) findViewById(R.id.txtsenhaacesso);
         Button btnlogin = (Button) findViewById(R.id.btnlogin);
-        TextView txtNaoCadastrou = (TextView) findViewById(R.id.textView2);
-        TextView txtCriarConta = (TextView) findViewById(R.id.criarConta);
+        TextView txtNaoCadastrou = (TextView) findViewById(R.id.txtops);
+        TextView txtCriarConta = (TextView) findViewById(R.id.txtcriarConta);
         Typeface roboto = Typeface.createFromAsset(getResources().getAssets(), "Roboto-Light.ttf");
 
+        txtmatriculaacesso.setTypeface(roboto);
+        txtsenhaacesso.setTypeface(roboto);
         txtNaoCadastrou.setTypeface(roboto);
         txtCriarConta.setTypeface(roboto);
+        btnlogin.setTypeface(roboto);
 
         txtCriarConta.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp">
 
     <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
+        android:id="@+id/txtnomeconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+       android:ems="10"
+        android:hint="Nome"
         android:inputType="textPersonName"
         android:text=""
-        android:hint="Nome"
-        android:textAlignment="textEnd"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/editText6"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="50dp"/>
 
     <EditText
-        android:id="@+id/editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="13dp"
+        android:id="@+id/txtcpfconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         android:hint="CPF"
-        android:textAlignment="textEnd"
-        android:layout_below="@+id/editText5"
-        android:layout_alignStart="@+id/editText5"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtmatriculaconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="number"
         android:text=""
         android:hint="Matricula"
-        android:textAlignment="textEnd"
-        android:layout_below="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_marginTop="12dp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/editText6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
+        android:id="@+id/txttelefoneconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="phone"
         android:text=""
         android:hint="Telefone"
-        android:textAlignment="textEnd"
-        android:layout_below="@+id/editText4"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/editText7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText6"
-        android:layout_below="@+id/editText6"
-        android:layout_marginTop="18dp"
+        android:id="@+id/txtmailconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text=""
         android:hint="e-mail"
-        android:textAlignment="textEnd"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:layout_marginTop="8dp" />
 
     <EditText
-        android:id="@+id/editText8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText7"
-        android:layout_below="@+id/editText7"
-        android:layout_marginTop="13dp"
+        android:id="@+id/txtenderecoconta"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         android:hint="Endereço"
-        android:textAlignment="textEnd"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"/>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnconta1"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="120dp"
+        android:paddingLeft="0pt"
         android:text="avançar"
         android:background="@color/colorAccent"
-        android:textColor="@color/colorPrimary"/>
-</RelativeLayout>
+        android:textColor="@color/colorPrimaryDark"
+        />
+</LinearLayout>

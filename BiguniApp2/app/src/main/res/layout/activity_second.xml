@@ -1,70 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#D1E9EA">
+    android:background="#D1E9EA"
+    android:orientation="vertical"
+    android:paddingLeft="48dp"
+    android:paddingRight="48dp">
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/logohome"
         android:layout_width="180dp"
         android:layout_height="180dp"
         android:adjustViewBounds="false"
         app:srcCompat="@drawable/ic_logo_biguni_app"
         android:layout_above="@+id/matriculaText"
         android:layout_alignEnd="@+id/textView2"
-        android:layout_marginBottom="23dp" />
+        android:layout_marginTop="80dp"/>
 
     <EditText
-        android:id="@+id/matriculaText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtmatriculaacesso"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=""
         android:hint="Matricula"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:layout_marginTop="8dp"/>
 
     <EditText
-        android:id="@+id/senhaText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="26dp"
+        android:id="@+id/txtsenhaacesso"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPassword"
         android:text=""
         android:hint="********"
         android:layout_below="@+id/matriculaText"
         android:layout_alignStart="@+id/matriculaText" />
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senhaText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Entrar"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimary"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtops"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ops, ainda não me cadastrei."
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginBottom="20dp"
         android:layout_above="@+id/criarConta"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
 
     <TextView
-        android:id="@+id/criarConta"
+        android:id="@+id/txtcriarConta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Criar conta"
         android:textColor="@color/colorAccent"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="53dp" />
+        android:layout_marginTop="8dp"/>
 
-    <Button
-        android:id="@+id/btnlogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/senhaText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
-        android:text="Entrar" />
-</RelativeLayout>
+
+</LinearLayout>
