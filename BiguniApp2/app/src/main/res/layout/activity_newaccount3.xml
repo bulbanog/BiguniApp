@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/icons"
     android:orientation="vertical"
     android:paddingLeft="48dp"
     android:paddingRight="48dp">
@@ -17,8 +17,8 @@
         android:hint="Carteira"
         android:textAlignment="textStart"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"/>
 
     <EditText
         android:id="@+id/txtmodeloconta"
@@ -30,8 +30,8 @@
         android:text=""
         android:hint="Modelo"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"/>
 
     <TextView
         android:id="@+id/txtcadastroconta"
@@ -42,7 +42,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"/>
 
     <EditText
         android:id="@+id/txtcorconta"
@@ -56,8 +56,8 @@
         android:text=""
         android:hint="Cor"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"/>
 
     <EditText
         android:id="@+id/txtplacaconta"
@@ -71,8 +71,8 @@
         android:text=""
         android:hint="Placa"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"/>
 
     <Button
         android:id="@+id/btncadastrarconta"
@@ -82,6 +82,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
         android:text="Cadastrar"
-        android:textColor="@color/colorPrimaryDark"
-        android:background="@color/colorAccent"/>
+        android:textColor="@color/icons"
+        android:background="@color/primary"/>
 </LinearLayout>

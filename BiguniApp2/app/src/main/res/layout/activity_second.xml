@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="#D1E9EA"
+    android:background="@color/icons"
     android:orientation="vertical"
     android:paddingLeft="48dp"
     android:paddingRight="48dp">
@@ -58,15 +58,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
         android:text="Entrar"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/icons"
+        android:textColorHint="@color/primary"
+        android:background="@color/primary"/>
 
     <TextView
         android:id="@+id/txtops"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ops, ainda não me cadastrei."
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
         android:layout_above="@+id/criarConta"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"/>
@@ -76,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Criar conta"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/primary"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"/>

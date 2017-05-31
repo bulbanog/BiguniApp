@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/icons"
     android:orientation="vertical"
     android:paddingLeft="48dp"
     android:paddingRight="48dp">
@@ -15,8 +15,8 @@
         android:inputType="textPersonName"
         android:text=""
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
         android:layout_marginTop="50dp"/>
 
     <EditText
@@ -28,8 +28,8 @@
         android:text=""
         android:hint="CPF"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp" />
 
@@ -42,8 +42,8 @@
         android:text=""
         android:hint="Matricula"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
         android:layout_marginTop="8dp" />
 
     <EditText
@@ -55,8 +55,8 @@
         android:text=""
         android:hint="Telefone"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="8dp" />
@@ -70,8 +70,8 @@
         android:text=""
         android:hint="e-mail"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"
         android:layout_marginTop="8dp" />
 
     <EditText
@@ -84,8 +84,8 @@
         android:text=""
         android:hint="Endereço"
         android:textAlignment="textStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/secondary_text"/>
 
     <Button
         android:id="@+id/btnconta1"
@@ -94,7 +94,7 @@
         android:layout_marginTop="120dp"
         android:paddingLeft="0pt"
         android:text="avançar"
-        android:background="@color/colorAccent"
-        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/primary"
+        android:textColor="@color/icons"
         />
 </LinearLayout>
