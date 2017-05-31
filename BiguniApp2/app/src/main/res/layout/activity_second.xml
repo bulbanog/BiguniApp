@@ -24,7 +24,7 @@
         app:srcCompat="@drawable/ic_logo_biguni_app"
         android:layout_above="@+id/matriculaText"
         android:layout_alignEnd="@+id/textView2"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="10dp"/>
 
     <EditText
         android:id="@+id/txtmatriculaacesso"
