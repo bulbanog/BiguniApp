@@ -2,6 +2,7 @@ package com.biguniunibratec.biguniapp;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -9,9 +10,22 @@ import android.widget.TextView;
  */
 
 public class CaronaLinhaViewHolder extends RecyclerView.ViewHolder {
+
+    public TextView txtnomelista;
+    public TextView txtorigemlista;
+    public TextView txtdestinolista;
+    public TextView txtvagalista;
+    public ImageView imagelista;
+
+
+
     public CaronaLinhaViewHolder(View itemView) {
         super(itemView);
 
-        TextView txtEndereco = (TextView) itemView.findViewById(R.id.txtendereco);
+        TextView txtorigemlista = (TextView) itemView.findViewById(R.id.txtorigemlista);
+        TextView txtdestinolista = (TextView) itemView.findViewById(R.id.txtdestinolista);
+        TextView txtnomelista = (TextView) itemView.findViewById(R.id.txtnomelista);
+        TextView txtvagalista =(TextView) itemView.findViewById(R.id.txtvagalista);
+        ImageView imagelista = (ImageView) itemView.findViewById(R.id.imagelista);
     }
 }
