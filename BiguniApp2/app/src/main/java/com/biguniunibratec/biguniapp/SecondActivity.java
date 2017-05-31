@@ -62,8 +62,8 @@ public class SecondActivity extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(c,ListaCaronaActivity.class);
-                startActivity(intent2);
+                Intent intent = new Intent(c,ListaCaronaActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -4,7 +4,7 @@
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
         android:id="@+id/action_favorite"
-        android:icon="@drawable/ic_logo_biguni_app"
+        android:icon="@drawable/ic_action_directions_car"
         android:title="@string/app_name"
         app:showAsAction="always"/>
 
