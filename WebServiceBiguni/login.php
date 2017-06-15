@@ -1,8 +1,8 @@
 <?php 
 	$msg;
-	if(isset($_GET['matricula']) && isset($_GET['senha'])){
-		$matricula = str_replace(" ", "", $_GET['matricula']);
-		$senha = str_replace(" ", "", $_GET['senha']);
+	if(isset($_POST['matricula']) && isset($_POST['senha'])){
+		$matricula = str_replace(" ", "", $_POST['matricula']);
+		$senha = str_replace(" ", "", $_POST['senha']);
 		if(strlen($matricula)< 4 || strlen($matricula)>50){
 			$msg = array('status' => 0, 'msg' =>"login precisa ser maior que 3 e menor que 50 caracteres" );
 		}elseif(strlen($senha)< 8 || strlen($senha)>30) {

@@ -2,11 +2,11 @@
 	//cria a variável que vai receber a mensagem
 	$msg;
 	//verifica se o id do usuário foi informado pela aplicação
-	if(isset($_GET['matricula'])){
+	if(isset($_POST['matricula'])){
 		// caso o id esteja setado faz a conexao
 		include "conexao.php";
 		//adiciona o conteúdo do id à variável id
-		$matricula = $_GET['matricula'];
+		$matricula = $_POST['matricula'];
 		//escreve a consulta sql para retornar o usuário que contenha o id informado
 		$sql = "DELETE FROM usuarios WHERE matricula=$matricula";
 		//efetua a consulta no banco

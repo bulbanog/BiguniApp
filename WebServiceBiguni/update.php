@@ -1,10 +1,10 @@
 <?php 
-if(isset($_GET['matricula'])){
-	$matricula = $_GET['matricula'];
-	$email= $_GET['email'];
-	$nome = $_GET['nome'];
-	$telefone = $_GET['telefone'];
-	$avatar = $_GET['avatar'];
+if(isset($_POST['matricula'])){
+	$matricula = $_POST['matricula'];
+	$email= $_POST['email'];
+	$nome = $_POST['nome'];
+	$telefone = $_POST['telefone'];
+	$avatar = $_POST['avatar'];
 	include "conexao.php";
 	//escrita da consulta
 	$sql = "UPDATE usuarios SET email='$email', nome='$nome', telefone='$telefone',avatar='$avatar' WHERE matricula=$matricula";

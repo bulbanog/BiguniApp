@@ -16,12 +16,12 @@
 		<input type="submit" value="Inserir">
 	</form>
 	<h1>Fazer pesquisa</h1>
-	<form action="read.php" method="get">
+	<form action="read.php" method="post">
 		<input type="text" name="matricula" placeholder="insira Matricula">
 		<input type="submit" value="Pesquisar">
 	</form>
 	<h1>Editar Usuario</h1>
-	<form action="update.php" method="get">
+	<form action="update.php" method="post">
 		<input type="text" name="matricula" placeholder="insira Matricula">
 		<input type="text" name="email" placeholder="insira Email">
 		<input type="text" name="nome" placeholder="insira Nome">
@@ -30,9 +30,14 @@
 		<input type="submit" value="Atualizar">
 	</form>
 	<h1>Delete Usuario</h1>
-	<form action="delete.php" method="get">
+	<form action="delete.php" method="post">
 		<input type="text" name="matricula" placeholder="insira Matricula">
 		<input type="submit" value="Apagar">
+	</form>
+	<h1>Lista carona</h1>
+	<form action="listacarona.php" method="post">
+		<input type="text" name="matricula" placeholder="insira Matricula">
+		<input type="submit" value="listar">
 	</form>
 </body>
 </html>

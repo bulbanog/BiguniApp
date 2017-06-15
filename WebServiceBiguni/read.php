@@ -2,16 +2,16 @@
 
 	$msg;
 	
-	if(isset($_GET['matricula'])){
+	if(isset($_POST['matricula'])){
 		include "conexao.php";
-		$matricula = $_GET['matricula'];
+		$matricula = $_POST['matricula'];
 		
 		$sql = "SELECT * FROM usuarios WHERE matricula=$matricula";
 		//efetua a consulta no banco
 		$resultado = mysqli_fetch_assoc($conexao->query($sql));
 		if($resultado){
 			//caso exista retorno adiciona os dados retornados à mensagem retornada para a aplicação
-			$msg = array('status'=>1, 'user' => $resultado);
+			$msg = array('status'=>1, 'usuario' => $resultado);
 		}else{
 			$msg = array('status' => 2, 'msg' => "usuario informado nao existe");
 		}
