@@ -22,10 +22,10 @@ public class CaronaLinhaViewHolder extends RecyclerView.ViewHolder {
     public CaronaLinhaViewHolder(View itemView) {
         super(itemView);
 
-        TextView txtorigemlista = (TextView) itemView.findViewById(R.id.txtorigemlista);
-        TextView txtdestinolista = (TextView) itemView.findViewById(R.id.txtdestinolista);
-        TextView txtnomelista = (TextView) itemView.findViewById(R.id.txtnomelista);
-        TextView txtvagalista =(TextView) itemView.findViewById(R.id.txtvagalista);
-        ImageView imagelista = (ImageView) itemView.findViewById(R.id.imagelista);
+        txtorigemlista = (TextView) itemView.findViewById(R.id.txtorigemlista);
+        txtdestinolista = (TextView) itemView.findViewById(R.id.txtdestinolista);
+        txtnomelista = (TextView) itemView.findViewById(R.id.txtnomelista);
+        txtvagalista =(TextView) itemView.findViewById(R.id.txtvagalista);
+        imagelista = (ImageView) itemView.findViewById(R.id.imagelista);
     }
 }
