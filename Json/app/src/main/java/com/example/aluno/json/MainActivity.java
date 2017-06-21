@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             user.setId(Integer.parseInt(jsonObjectUsuario.get("id").toString()));
             user.setNome(jsonObjectUsuario.get("name").toString());
             user.setUsernome(jsonObjectUsuario.get("username").toString());
-            arrayListUsers.add(user);
+            arrayListUsers.add(user)
 
 
 

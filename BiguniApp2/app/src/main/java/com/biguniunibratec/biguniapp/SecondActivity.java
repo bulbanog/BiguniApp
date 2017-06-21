@@ -115,7 +115,7 @@ public class SecondActivity extends AppCompatActivity {
     }
     public void lerJson() throws ExecutionException, InterruptedException,JSONException{
         BaseRequester baseRequester = new BaseRequester();
-        baseRequester.setUrl("http://barcodepapelorigami.hol.es/WebServiceBiguni/listacarona.php");
+        baseRequester.setUrl("http://barcodepapelorigami.hol.es/listacarona.php");
         baseRequester.setContext(context);
 
         //Enviar dados ao servidor
@@ -137,13 +137,7 @@ public class SecondActivity extends AppCompatActivity {
             usuario.setNome(jsonObjectUsuario.get("nome").toString());
             usuario.setTelefone(jsonObjectUsuario.get("telefone").toString());
             arrayListUsers.add(usuario);
-
-
-
         }
-
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
